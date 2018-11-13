@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Party Time!</string>
+    <string name="title_activity_about_screen">About</string>
+    <string name="title_home">About</string>
+    <string name="title_dashboard">R.S.V.P</string>
+    <string name="title_notifications">Directions</string>
+    <string name="about_screen_background_info">You are cordially invited to</string>
+    <string name="about_screen_background_info_more">Amrit\'s 19th birthday party!\n\n</string>
+    <string name="about_when_more">The birthday party will take place on: </string>
+    <string name="about_when_information">
+    Saturday 19th May
+    \nTwo Thousand Eighteen
+    \nFive O\'Clock in the afternoon \n</string>
+    <string name="about_where_inforamtion">The birthday party will be at:</string>
+    <string name="about_where_info">Red Cow
+        \n296High Street
+        \nSmethwick, Birmingham B66 3NL
+        \nEngland
+        \n\n(If you need directions just click on the directions widget on the bottom right or the button below).
+        </string>
+    <string name="about_event">At the event you will be provided with:</string>
+    <string name="about_event_information">
+        Starters at Six O\'Clock
+        \nMains will be distributed at Eight O\'Clock
+        \nDessert will be served at Nine O\'Clock
+        \n\nThere will also be music, and a dance floor,so you can bust out your dance moves.
+        \nDon\'t worry about bringing money for drinks because there will be an open bar!</string>
+    <string name="about_rsvp_info">If you can attend please R.S.V.P as soon as possible, click on the R.S.V.P widget for more details. Or you can
+        click on the R.S.V.P button below. </string>
+    <string name="map">Directions</string>
+    <string name="rsvpButton">R.S.V.P</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="where_birthday">Birthday Location</string>
+    <string name="address_input">Where are you now?</string>
+    <string name="search_button">Directions</string>
+    <string name="how_map"> How to get directions using</string>
+    <string name="how_google">Google maps</string>
+    <string name="about_button_crop">                </string>
+    <string name="instruction_map">If you don\'t enter a place in the field below and press the directions button the map will display the location of the party.
+        If you would like the directions to the party, just simply enter the place you would like directions from, and click on directions.</string>
+
+    <string name="rsvp_instructions">Please send me an email by May 1st clarifying whether you are able to attend. You can do this by filling out
+        the information below and pressing send, which will open up the email for you. If you have any more requirements you can include it in this email.</string>
+    <string name="address_who">To: </string>
+    <string name="subject_email">Subject: </string>
+    <string name="rsvp_send">Send</string>
+    <string name="map_instructions">If you don\'t enter a place in the field below and press the directions button the map will display the location of the party.
+        If you would like the directions to the party, just simply enter the place you would like directions from, and click on directions. If you would
+    like to stay on this app, and just see where the party is simply click on current location.</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="splash_text">You\'re Invited!</string>
+    <string name="rsvp_how">How to R.S.V.P for the party!</string>
+    <string name="rsvp_coming">What is your name?</string>
+    <string name="rsvp_can_you_come">Can you attend?</string>
+    <string name="rsvp_guests">Will you be bring a plus one?></string>
+    <string name="rsvp_food_requirements">Please informs of on any dietary requirements below</string>
+    <string name="rsvp_anything_else">If there are any other requirements please say below</string>
+    <string name="current_location">Party Location</string>
+    <string name="map_instruction">
+        If you would like the directions to the party, just simply enter the place you would like directions from, and click on directions. If you would
+    like to stay on this app, and just see where the party is simply click on party location.</string>
+    <string name="party_location">"Party Location"</string>
+
+
+</resources>

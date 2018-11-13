@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_whiteo"
+    tools:context="com.fin.amrit.amrit_final_app.MapScreen">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:itemIconTint="@color/gold"
+        app:itemTextColor="@color/gold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation"
+        app:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+
+    </android.support.design.widget.BottomNavigationView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:text="@string/rsvp_how"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/rsvp" />
+
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:text="@string/rsvp_instructions"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="633dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="cursive"
+                        android:gravity="center"
+                        android:text="@string/about_button_crop"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="normal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="cursive"
+                        android:gravity="center"
+                        android:text="@string/rsvp_coming"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="normal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <EditText
+                        android:id="@+id/emailName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size"
+
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="cursive"
+                        android:gravity="center"
+                        android:text="@string/rsvp_can_you_come"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="normal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <EditText
+                        android:id="@+id/yesorno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size"
+
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="cursive"
+                        android:gravity="center"
+                        android:text="@string/rsvp_guests"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="normal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <EditText
+                        android:id="@+id/extraguests"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size"
+
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="cursive"
+                        android:gravity="center"
+                        android:text="@string/rsvp_food_requirements"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="normal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <EditText
+                        android:id="@+id/food"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:lines="3"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="cursive"
+                        android:gravity="center"
+                        android:text="@string/rsvp_anything_else"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="normal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <EditText
+                        android:id="@+id/subject_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size"
+
+
+                        />
+
+
+                    <Button
+                        android:id="@+id/button_send"
+                        android:layout_width="138dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/button_rounded"
+                        android:text="@string/rsvp_send"
+
+
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+
